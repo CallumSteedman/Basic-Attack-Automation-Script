@@ -1,5 +1,5 @@
-# Basic-Attack-Automation-Script
-The Attack-Automation-Script will automate the process of discovering weak usernames and passwords being used for services running on a host. 
+# Basic Attack Automation Script
+This script will automate the process of discovering weak usernames and passwords that may exist on a common group of services that may be running on a host. 
 
 The script will input and subsequently read a file containing IP addresses, and for each IP address in the list the script will scan the chosen ports on that host. The script will then attempt to bruteforce a certain subset of selected services if they are running on the host.
 
